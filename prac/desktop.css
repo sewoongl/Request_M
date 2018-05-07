@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+     max-width: 1600px;
+     height: 100vh;
+     background-color: lightgray;
+   }
+nav {
+    float: left;
+    display: inline-block;
+    width: 300px;
+    height: 100vh;
+    margin-left: 10%;
+    position: fixed!important;
+    background-color: bisque;
+}
+#pic_box p {
+    font-style: italic;
+}
+#hgroup {
+      /*float: left;*/
+      /*display: inline-block;*/
+      margin: 0 10%;
+      max-width: 100%;
+      padding: 15px;
+      height: 10vh;
+      /*text-align: center;
+      font-size: 30px;*/
+      background-color: cadetblue;
+}
+.atc {
+    background-color: burlywood;
+    margin: 0 10%;
+    max-width: 100%;
+    height: 42vh;
+    text-align: center;
+}
+#foot {
+    background-color: cadetblue;
+    margin: 0 10%;
+    max-width: 100%;
+    text-align: center;
+    float: left;
+}
+#h1 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 30%!important;
+    /*bottom: 50px;*/
+    /*transform: translateY(-2200%);*/
+    margin: 0;
+}
